@@ -1,0 +1,79 @@
+npm -v // checking the version of node package
+npm or npm help to view series of npm help codes
+npm init // to create package.json
+
+
+npm init -y or npm init --yes // to accept all the default information when intializing or after intialized
+
+
+npm config set init-whatever you want to change "the value"  eg npm config set init-author-name "aremu" or npm set init-author-name "aremu"
+
+
+npm get init-whatever you want to get or check eg npm get init-author-name
+
+
+npm config delete init-author-name // to delete the name of the author
+
+npm install "whatever i want to install" --save 
+what we are trying to install is a dependency or third party library or framework and it is needed to be saved in the package.json file as dependencies which i use -- save
+
+
+npm install whatever i want to install --save-dev (the --save-dev  is to node modules in the package.json file as dev.dependencies which is used in the development stage)
+
+npm install --production (is only used to install the dependencies and no the dependencies) but to install both the dependencies and devdependencies we use     npm install 
+
+
+
+to uninstall or remove (i can use npm unistall , npm un, npm rm) then --save-dev (for devdependencies)  --save (for dependencies)
+
+
+to install a particular version 
+npm install eg:lodash@4.17.3 --save
+
+npm install eg:gulp@4.17.3 --save-dev (for devdependencies)
+
+
+to update the version
+npm update lodash
+
+
+npm install -g nodemon
+installing the nodemon package makes things easier while working or making changes it automatically upload or reloads the browser or the project 
+
+
+npm rm -g nodemon
+to remove nodemon
+
+npm rm  live-server -g
+to remove live-server
+
+
+to stop the nodemon from working
+ctrl c
+
+npm list 
+to list the packages/dependencies in the package.json file
+
+or npm list --depth 0
+to list the first of dependencies in the package.json file
+
+or npm list --depth 1
+to list the second or stage 2 of dependencies in the package.json file
+
+npm install live-server-g (globally) 
+installing the live-server-g package makes me run any directory to a local host or local server to view the page on the browser
+
+npm install live-server-
+
+for scripts in the package.json file is used to carry out operations with ease by adding a script to the specific task and running the name of the script with npm
+1. it is easier for other devs to work on my project without checking the main file name or live server or they just need the scripts name and npm eg npm start, npm run dev or npm test.... then it automatically replaces the work of  npm index.js
+
+
+
+to install things globally on the system we use npm install -g then what we want to install
+
+
+shortcut to install a third party in devdependencies
+npm install -D uuid
+
+
