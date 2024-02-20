@@ -33,6 +33,7 @@ const ages = [23, 12, 34, 45, 67];
 
 
 
+
 console.log(people);
 console.log(ages);
 
